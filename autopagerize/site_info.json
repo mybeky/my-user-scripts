@@ -1,6 +1,13 @@
 [
 {
     "data": {
+        "url":         '^http://40kg\.eu',
+        "nextLink":    '//a[text()='Older Posts »']',
+        "pageElement": '//div[@id='content']/div'
+    }
+},
+{
+    "data": {
         "url":          '^http://avfun\.in\/forum\.php',
         "nextLink":     '//a[@class="nxt"]',
         "pageElement":  '//form[@id="moderate"]'
