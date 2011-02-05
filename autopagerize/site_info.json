@@ -2,7 +2,7 @@
 {
     "data": {
         "url":         '^http://40kg\.eu',
-        "nextLink":    '//a[text()='Older Posts »']',
+        "nextLink":    '//a[text()="Older Posts »"]',
         "pageElement": '//div[@id='content']/div'
     }
 },
