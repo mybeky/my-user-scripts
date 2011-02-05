@@ -1,9 +1,682 @@
 [
 {
-  "data": {
-    "url": "^http://40kg\.eu",
-    "nextLink": "//a[text()='Older Posts »']",
-    "pageElement": "//div[@id='content']/div"
-  }
+    "data": {
+        "url":          '^http://avfun\.in\/forum\.php',
+        "nextLink":     '//a[@class="nxt"]',
+        "pageElement":  '//form[@id="moderate"]'
+    }
+},
+{
+    "data": {
+        "url":          '^http://friend\.renren\.com/GetFriendList\.do',
+        "nextLink":     '//a[@title="下一页"]',
+        "pageElement":  '//ol[@id="friendListCon"]'
+    }
+},
+{
+    "data": {
+        "url":          '^http://www\.iapps\.im/',
+        "nextLink":     '//a[text()="下一页"]',
+        "pageElement":  '//div[@class="blogPost clearfix"]'
+    }
+},
+{
+    "data": {
+        "url":          '^http://bbs\.weiphone\.com/',
+        "nextLink":     '//div[@class="pages cc"]/b/following-sibling::a[1]',
+        "pageElement":  '//table[@id="ajaxtable"]'
+    }
+},
+{
+    "data": {
+        "url":          '^http://www\.51ipa\.com/',
+        "nextLink":     '//a[text()="下一页"]',
+        "pageElement":  '//div[@class="listbox"]'
+    }
+},
+{
+    "data": {
+        "url":          '^http://www\.hexieshe\.com/',
+        "nextLink":     '//a[text()="Next"]',
+        "pageElement":  '//article'
+    }
+},
+{
+    "data": {
+        "url":          '^http://www\.ccb\.com/cn/html/office/xyk/subject/',
+        "nextLink":     '//a[text()="下一页"]',
+        "pageElement":  '//div[@class="pic-list"]'
+    }
+},
+{
+    "data": {
+        "url":          '^http://djangocon\.blip\.tv',
+        "nextLink":     '//a[text()="Next"]',
+        "pageElement":  '//div[@id="Wrapper"]'
+    }
+},
+{
+    "data": {
+        "url":          '^http://t\.sina\.com\.cn/search/user\.php\?',
+        "nextLink":     '//em[text()="下一页"]/..',
+        "pageElement":  '//ul[@class="concernBox"]'
+    }
+},
+{
+    "data": {
+        "url":          '^http://bbs\.360\.cn/',
+        "nextLink":     '//div[@class="pageBox"]/b/following-sibling::a[1]',
+        "pageElement":  '//div[@class="table02"]'
+    }
+},
+{
+    "data": {
+        "url":          '^http://tv\.duowan\.com/',
+        "nextLink":     '//span[@id="pageNow"]/following-sibling::span/a',
+        "pageElement":  '//div[@class="inner-list"]|//div[@class="index-list"]'
+    }
+},
+{
+    "data": {
+        "url":          '^http://bt\.77bt\.info\/list.php?',
+        "nextLink":     '//a[text()="下一页"]',
+        "pageElement":  '//div[@class="block"]'
+    }
+},
+{
+    "data": {
+        "url":          '^http://www\.djangobook\.com\/en/',
+        "nextLink":     '//div/a[last()]',
+        "pageElement":  '//div[@class="yui-b"]'
+    }
+},
+{
+    "data": {
+        "url":          '^http://www\.casio\.com\.cn/product/',
+        "nextLink":     '//a[text()="下一页"]',
+        "pageElement":  '//td[@width="570"]//table[position()>3 and position()<12]'
+    }
+},
+{
+    "data": {
+        "url":          '^http://simpledesktops\.com/browse/',
+        "nextLink":     '//a[@class="older"]',
+        "pageElement":  '//div[contains(@class, "desktops")]'
+    }
+},
+{
+    "data": {
+        "url":          '^http://acfun\.cn/html/.*/index\.html',
+        "nextLink":     '//a[text()="下一页"]',
+        "pageElement":  '//table[@height="412"]'
+    }
+},
+{
+    "data": {
+        "url":          '^http://124\.228\.254\.229/html/.*/index\.html',
+        "nextLink":     '//a[text()="下一页"]',
+        "pageElement":  '//table[@height="412"]'
+    }
+},
+{
+    "data": {
+        "url":          '^https://1984bbs\.com/viewthread\.php?',
+        "nextLink":     '//div[@class="pages"]/strong/following-sibling::a[1]',
+        "pageElement":  '//form[@name="modactions"]'
+    }
+},
+{
+    "data": {
+        "url":          '^http://bbs\.fengniao\.com',
+        "nextLink":     '//a[text()=">"]',
+        "pageElement":  '//div[@id="posts"]'
+    }
+},
+{
+    "data": {
+        "url":          '^http://qicai\.fengniao\.com',
+        "nextLink":     '//a[text()="下一页"]',
+        "pageElement":  '//div[@class="article f14px"]'
+    }
+},
+{
+    "data": {
+        "url":          '^http://img\.ly/images?',
+        "nextLink":     '//a[@class="next_page"]',
+        "pageElement":  '//ul[@class="image-list"]'
+    }
+},
+{
+    "data": {
+        "url":          '^http://www\.tianya\.cn',
+        "nextLink":     '//a[text()="下一页"]',
+        "pageElement":  '//div[@id="pContentDiv"]'
+	}
+},
+{
+    "data": {
+        "url":          '^http://textmatetheme\.com',
+        "nextLink":     '//a[@class="next_page"]',
+        "pageElement":  '//div[@id="content"]'
+	}
+},
+{
+    "data": {
+        "url":          '^http://findicons\.com',
+        "nextLink":     '//span[@class="current"]/following-sibling::a[1]',
+        "pageElement":  '//div[@class="icon_list icon_list_165"]'
+	}
+},
+{
+    "data": {
+        "url":          '^http://v2ex\.appspot\.com',
+        "nextLink":     '//a[text()="下一页"]',
+        "pageElement":  '//div[@class="cell"]/table'
+	}
+},
+{
+    "data": {
+        "url":          '^http://www\.v2ex\.com',
+        "nextLink":     '//a[text()="下一页"]',
+        "pageElement":  '//div[@class="cell"]/table'
+	}
+},
+{
+    "data": {
+        "url":          '^http://mockupstogo\.net',
+        "nextLink":     '//a[@rel="next"]',
+        "pageElement":  '//div[@class="body"]'
+	}
+},
+{
+    "data": {
+        "url":          '^http://www\.appbrain\.com/',
+        "nextLink":     '//b[text()="Next"]/..',
+        "pageElement":  '//div[@class="resultList"]/span'
+	}
+},
+{
+    "data": {
+        "url":          '^http://192\.168\.1\.50:3000',
+        "nextLink":     '//img[@alt="Next Page"]/..',
+        "pageElement":  '//tr[@onmouseout]'
+	}
+},
+{
+    "data": {
+		"url":          '^http://hotels\.ctrip\.com',
+        "nextLink":     '//a[text()="下一页"]',
+        "pageElement":  '//div[@id="dvHotelListRegion"]'
+	}
+},
+{
+    "data": {
+		"url":          '^http://hotel\.elong\.com',
+        "nextLink":     '//a[text()="下一页"]',
+        "pageElement":  '//div[@id="dvHotelListRegion"]'
+	}
+},
+{
+    "data": {
+		"url":          '^http://www\.33669\.com',
+        "nextLink":     '//a[@title="Next"]',
+        "pageElement":  '//div[@id="newsPic"]'
+	}
+},
+{
+    "data": {
+		"url":          '^http://gae\.kangye\.org',
+        "nextLink":     '//a[text()="下一页"]',
+        "pageElement":  '//div[@id="sites-canvas-main"]'
+	}
+},
+{
+    "data": {
+		"url":          '^http://forum\.sports\.sina\.com\.cn',
+        "nextLink":     '//div[@class="pages"]/strong/following-sibling::a[1]',
+        "pageElement":  '//div[@class="mainbox threadlist"]'
+	}
+},
+{
+    "data": {
+		"url":          '^http://www\.footbig\.com',
+        "nextLink":     '//strong[@class="page"]/following-sibling::a[1]',
+        "pageElement":  '//div[@id="canvas"]/div[@class="item_box"]/table'
+	}
+},
+{
+    "data": {
+		"url":          '^http://pixelgirlpresents\.com',
+        "nextLink":     '//a[@title="Go to next page"]',
+        "pageElement":  '//div[@id="content-area"]'
+	}
+},
+{
+    "data": {
+		"url":          '^http://.*\.theplanet\.com',
+        "nextLink":     '//td[@align="left"]/b/following-sibling::a[1]',
+        "pageElement":  '//tr[@class="t_one"]'
+	}
+},
+{
+    "data": {
+        "url":          '^http://www\.uniqlo\.cn/search',
+        "nextLink":     '//a[@class="page-next"]',
+        "pageElement":  '//ul[@class="shop-list"]'
+    }
+},
+{
+    "data": {
+        "url":          '^http://www\.simplecd\.org',
+        "nextLink":     '//a[text()="下一页"]',
+        "pageElement":  '//div[@class="reslist"]'
+    }
+},
+{
+    "data": {
+        "url":          '^http://www\.ccse\.uestc\.edu\.cn/list.aspx?',
+        "nextLink":     '//a[text()="后页"]',
+        "pageElement":  '//td[@colspan="2"]/table[@width="100%"]'
+    }
+},
+{
+    "data": {
+        "url":          '^http://www\.slideshare\.net/(new)?search',
+        "nextLink":     '//a[@class="next_page"]',
+        "pageElement":  '//ol[@class="searchResults"]'
+    }
+},
+{
+    "data": {
+        "url":          '^http://www\.gomlab\.com',
+        "nextLink":     '//td[@class="NumTxt"]/a[@class="sel"]/following-sibling::a',
+        "pageElement":  '//div[@id="SLList"]/dl'
+    }
+},
+{
+    "data": {
+        "url":          '^http://findicons\.com/search',
+        "nextLink":     '//div[@class="pages"]/a[last()]',
+        "pageElement":  '//div[@class="icon_list"]'
+    }
+},
+{
+    "data": {
+        "url":          '^http://www\.adobe\.com\/cn\/devnet',
+        "nextLink":     '//dd[@class="next"]/a',
+        "pageElement":  '//div[@id="article-C2"]'
+    }
+},
+{
+    "data": {
+        "url":          '^http://.*\.163\.com',
+        "nextLink":     '//a[text()="下一页"]',
+        "pageElement":  '//div[@id="endText"]',
+        "insertBefore": '//div[@class="endMore"]'
+    }
+},
+{
+    "data": {
+        "url":          '^http://wanfang\.uestc\.edu\.cn',
+        "nextLink":     '//a[text()="下一页"]',
+        "pageElement":  '//ul[@class="list_ul"]'
+    }
+},
+{
+    "data": {
+        "url":          '^http://search\.taobao\.com',
+        "nextLink":     '//a[@class="page-next"]',
+        "pageElement":  '//div[@id="list:content"]'
+    }
+},
+{
+    "data": {
+        "url":          '^http://browse\.renren\.com',
+        "nextLink":     '//a[@action="next"]',
+        "pageElement":  '//div[@id="single-column"]'
+    }
+},
+{
+    "data": {
+        "url":          '^http://www\.tianya\.cn',
+        "nextLink":     '//a[contains(text(), "条符合条件的")]',
+        "pageElement":  '//center/table'
+    }
+},
+{
+    "data": {
+        "url":          '^http://www\.zaozon\.com',
+        "nextLink":     '//a[@class="next"]',
+        "pageElement":  '//ul[@class="item_list_wrapper"]/..'
+    }
+},
+{
+    "data": {
+        "url":          '^http://192',
+        "nextLink":     '//img[@src="Untitled-5.jpg"]/..|//a[@accesskey="n"]',
+        "pageElement":  '(//div[@align="center"])[5]|//div'
+    }
+},
+{
+    "data": {
+        "url":          '^http://so\.tudou\.com',
+        "nextLink":     '//a[text()="下一页"]',
+        "pageElement":  '//div[@class="showcase"]'
+    }
+},
+{
+    "data": {
+        "url":          '^http://mac\.6\.cn',
+        "nextLink":     '//strong[@class="p_cur"]/following-sibling::a[1]',
+        "pageElement":  '//table[@class="board"]'
+    }
+},
+{
+    "data": {
+        "url":          '^http://pp\.ju690\.com',
+        "nextLink":     '//div[@class="fr"]/ul/li/a',
+        "pageElement":  '//div[@class="liuyan"]'
+    }
+},
+{
+    "data": {
+        "url":          '^http://www\.riameeting\.com',
+        "nextLink":     '//a[@class="pager-next active"]',
+        "pageElement":  '//div[@class="taxn_nodelist"]'
+    }
+},
+{
+    "data": {
+        "url":          '^http://91porn\.ro\.lt',
+        "nextLink":     '//a[text()="»"]',
+        "pageElement":  '//div[@id="fullbox-content"]'
+    }
+},
+{
+    "data": {
+        "url":          '^http://.*\.javaeye\.com',
+        "nextLink":     '//a[@class="next_page"]',
+        "pageElement":  '//div[@class="blog_main"]'
+    }
+},
+{
+	"data": {
+		"url":          '^http://bbs\.stuhome\.net/read\.php\?',
+        "nextLink":     '//div[@class="pages"]/b/following-sibling::a[1]',
+        "pageElement":  '//div[@class="t t2"]'
+	}
+},
+{
+	"data": {
+		"url":          '^http://bbs\.stuhome\.net/thread\.php\?',
+        "nextLink":     '//div[@class="pages"]/b/following-sibling::a[1]',
+        "pageElement":  '//tr[@class="tr3 t_one"]'
+	}
+},
+{
+	"data": {
+		"url":          '^http://tieba\.baidu\.com/.+',
+        "nextLink":     '//a[descendant::font[text()="下一页"]]|//a[text()="下一页"]',
+        "pageElement":  '//table[@id="thread_list_table"]|//div[@id="content"]|//div[@class="Cont"]|//div[@id="pb_content"]/table[@class="c_post"]'
+	}
+},
+{
+	"data": {
+		"url":          '^http://(www\.)?baidu.*/s*',
+        "nextLink":     '//a[descendant::font[text()="下一页"]]',
+        "pageElement":  '//table[descendant::td[@class="f"]]|//table[descendant::td[@class="f"]]/following-sibling::node()[1]'
+	}
+},
+{
+	"data": {
+		"url":          '^http://lifehacker\.com/',
+        "nextLink":     '//li[span[@class="currentPage"]]/following-sibling::li[1]/a',
+        "pageElement":  '//ul[@id="content"]'
+	}
+},
+{
+    "data": {
+        "url":          '^http://www\.verycd\.com/',
+        "nextLink":     '//a[text()^="下一页"]',
+        "pageElement":  '//table[@id="results-container"]'
+    }
+},
+{
+	"data": {
+		"url":          '^http://list\.taobao\.com/browse',
+        "nextLink":     '//span[@class="page-cur"]/following-sibling::a[1]',
+        "pageElement":  '//div[@id="list:content"]'
+	}
+},
+{
+	"data": {
+		"url":          '^http://*\.taobao\.com/browse',
+        "nextLink":     '//a[@class="page-next"]',
+        "pageElement":  '//div[@id="list:content"]'
+	}
+},
+{
+	"data": {
+		"url":          '^http://www\.80ebus\.com/goods/GoodsBrowse\.aspx',
+        "nextLink":     '//div[@id="Pager"]/table/tbody/tr/td[2]/font/following-sibling::a[1]',
+        "pageElement":  '//div[@id="goods"]'
+	}
+},
+{
+	"data": {
+		"url":          '^http://www\.amazon\.cn/mn/browseApp\?',
+        "nextLink":     '//div[@id="result-page"]/a[text()="下一页"]',
+        "pageElement":  '//div[@id="product-3col"]'
+	}
+},
+{
+	"data": {
+		"url":          '^http://digi\.daqi\.com/article/',
+        "nextLink":     '//li[a[@class="now_page"]]/following-sibling::li[1]/a',
+        "pageElement":  '//div[@class="content"]'
+	}
+},
+{
+	"data": {
+		"url":          '^http://sourceforge\.net/forum/forum.php\?',
+        "nextLink":     '//a[text()="Next Messages"]',
+        "pageElement":  '//form[@name="forum"]/table'
+	}
+},
+{
+	"data": {
+		"url":          '^http://bbs\.news\.163\.com/bbs/',
+        "nextLink":     '//a[@id="paging_next"]',
+        "pageElement":  '//div[@class="articleLeft"]',
+	}
+},
+{
+	"data": {
+		"url":          '^http://www\.youku\.com/v_showlist/',
+        "nextLink":     '//div[@class="LPageBar"]/a[text()="下一页"]',
+        "pageElement":  '//div[@class="vData"]',
+	}
+},
+{
+	"data": {
+		"url":          '^http://www\.douban\.com/subject/.*/discussion',
+        "nextLink":     '//span[@class="next"]/a',
+        "pageElement":  '//table[@class="olt"]',
+	}
+},
+{
+	"data": {
+		"url":          '^http://re\.xianguo\.com',
+        "nextLink":     '//div[@class="page_nav"]/a[text()="下一页 >>"]',
+        "pageElement":  '//div[@class="item_list"]',
+	}
+},
+{
+	"data": {
+		"url":          '^http://bbs\.stuhome\.net/search.php?',
+        "nextLink":     '//div[@class="pages"]/b/following-sibling::a[1]',
+        "pageElement":  '//div[@class="t"]',
+	}
+},
+{
+	"data": {
+		"url":          '^http://se*\.it168\.com/viewthread.php?',
+        "nextLink":     '//div[@class="pages"]/strong/following-sibling::a[1]',
+        "pageElement":  '//div[@class="mainbox viewthread"]',
+	}
+},
+{
+	"data": {
+		"url":          '^http://bbs*\.zhibo8\.com/',
+        "nextLink":     '//div[@class="pages"]/strong/following-sibling::a[1]',
+        "pageElement":  '//div[@class="mainbox viewthread"]',
+	}
+},
+{
+    "data": {
+		"url":          '^http://.*\.drleeuk\.com/thread',
+        "nextLink":     '//div[@class="pages"]/b/following-sibling::a[1]',
+        "pageElement":  '//table[@id="ajaxtable"]',
+	}
+},
+{
+	"data": {
+		"url":          '^http://.*\.drleeuk\.com/htm_data',
+        "nextLink":     '//div[@class="pages"]/b/following-sibling::a[1]',
+        "pageElement":  '//div[@class="t t2"]',
+	}
+},
+{
+	"data": {
+		"url":          '^http://.*t66y\.com/thread',
+        "nextLink":     '//div[@class="pages"]/b/following-sibling::a[1]',
+        "pageElement":  '//table[@id="ajaxtable"]',
+	}
+},
+{
+	"data": {
+		"url":          '^http://.*t66y\.com/htm_data',
+        "nextLink":     '//div[@class="pages"]/b/following-sibling::a[1]',
+        "pageElement":  '//div[@class="t t2"]',
+	}
+},
+{
+	"data": {
+		"url":          '^http://comment\.news\.163\.com/',
+        "nextLink":     '//a[@title="下一页"]',
+        "pageElement":  '//div[@class="endReview"]',
+	}
+},
+{
+	"data": {
+		"url":          '^http://product\.tech\.163\.com',
+        "nextLink":     '//div[@class="pages"]/a[text()="下一页"]',
+        "pageElement":  '//div[@id="#切换区域"]',
+	}
+},
+{
+    "data": {
+		"url":          '^http://1\.xiao778\.net/bbs/forumdisplay\.php',
+        "nextLink":     '//a[text()=">"]',
+        "pageElement":  '//form[@name="moderate"]',
+	}
+},
+{
+    "data": {
+		"url":          '^http://sebbs\.it168\.com/forum*',
+        "nextLink":     '//div[@class="pages"]/strong/following-sibling::a[1]',
+        "pageElement":  '//form[@name="moderate"]',
+	}
+},
+{
+    "data": {
+		"url":          '^http://sebbs\.it168\.com/thread*',
+        "nextLink":     '//div[@class="pages"]/strong/following-sibling::a[1]',
+        "pageElement":  '//form[@name="modactions"]',
+	}
+},
+{
+    "data": {
+		"url":          '^http://.*\.pconline\.com\.cn*',
+        "nextLink":     '//div[@class="art_page"]/a[text()="下一页"]',
+        "pageElement":  '//div[@class="art_area"]',
+	}
+},
+{
+    "data": {
+		"url":          '^http://.*\.deviantart\.com',
+        "nextLink":     '//a[text()="Next Page"]',
+        "pageElement":  '//div[@class="thought block"]',
+	}
+},
+{
+    "data": {
+		"url":          '^http://www\.zcool\.com\.cn*',
+        "nextLink":     '//a[text()="下一页"]',
+        "pageElement":  '//table[@width="952"][2]',
+	}
+},
+{
+    "data": {
+		"url":          '^http://www\.zcool\.com\.cn*',
+        "nextLink":     '//a[text()="下一页"]',
+        "pageElement":  '//ul/p[@class="dotted"]',
+	}
+},
+{
+    "data": {
+		"url":          '^http://bbs\.pcbeta\.com\*',
+        "nextLink":     '//a[@class="next"]',
+        "pageElement":  '//div[@id="postlist"]',
+	}
+},
+{
+    "data": {
+		"url":          '^http://bbs\.pcbeta\.com\*',
+        "nextLink":     '//a[@class="next"]',
+        "pageElement":  '//table[@class="datatable"]',
+	}
+},
+{
+    "data": {
+		"url":          '^http://*\.51nb\.com\*',
+        "nextLink":     '//a[@class="next"]',
+        "pageElement":  '//div[@class="st14con"]',
+	}
+},
+{
+    "data": {
+		"url":          '^http://www\.cnshare\.org\*',
+        "nextLink":     '//div[@class="navigation"]//a',
+        "pageElement":  '//div[@id="content"]',
+	}
+},
+{
+    "data": {
+		"url":          '^http://www\.yi-look\.com/read\*',
+        "nextLink":     '//a[text()="下一节"]',
+        "pageElement":  '//table[@width="90%"]',
+	}
+},
+{
+    "data": {
+		"url":          '^http://www\.xunlei-mz\.cn/read\*',
+        "nextLink":     '//a[text()="下一节"]',
+        "pageElement":  '//table[@width="90%"]',
+	}
+},
+{
+    "data": {
+		"url":          '^http://www\.cyrket\.com',
+        "nextLink":     '//div[@class="more"]/a',
+        "pageElement":  '//div[@class="content"]/a',
+	}
+},
+{
+    "data": {
+        "url":          '^http://groups\.google\.com',
+        "nextLink":     '//a[text()="Newer >"]',
+        "pageElement":  '//div[@id="msgs"]',
+    }
 }
 ]
