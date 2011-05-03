@@ -178,14 +178,14 @@
     "data": {
         "url":          '^http://v2ex\.appspot\.com',
         "nextLink":     '//a[text()="下一页"]',
-        "pageElement":  '//div[@class="cell"]/table'
+        "pageElement":  '//div[contains(@class, "cell from_")]'
 	}
 },
 {
     "data": {
         "url":          '^http://www\.v2ex\.com',
         "nextLink":     '//a[text()="下一页"]',
-        "pageElement":  '//div[@class="cell"]/table'
+        "pageElement":  '//div[contains(@class, "cell from_")]'
 	}
 },
 {
